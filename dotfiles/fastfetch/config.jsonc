@@ -1,0 +1,111 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "arch",
+        "color": {
+            "1": "white",
+            "2": "#808080",
+            "3": "#808080",
+            "4": "white"
+        }
+    },
+    "modules": [
+        {
+        	"type": "title",
+        	"color": {
+      			"user": "#808080",
+      			"at": "green",
+      			"host": "white"
+    		}
+        },
+        "separator",
+        {
+        	"type": "os",
+        	"key": "OS",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "host",
+        	"key": "Machine",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "kernel",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "uptime",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "packages",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "shell",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "display",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "de",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "wm",
+        	"keyColor": "#808080"
+        },
+        "wmtheme",
+        "theme",
+        "icons",
+        "font",
+        {
+        	"type": "cursor",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "terminal",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "terminalfont",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "cpu",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "gpu",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "memory",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "swap",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "disk",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "localip",
+        	"keyColor": "#808080"
+        },
+        {
+        	"type": "battery",
+        	"keyColor": "#808080"
+        },
+        "poweradapter",
+        {
+        	"type": "locale",
+        	"keyColor": "#808080"
+        },
+        "break"
+    ]
+}

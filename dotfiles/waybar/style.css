@@ -1,0 +1,109 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+}
+
+/* Main bar */
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: #e6e6e6;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Workspaces container */
+#workspaces {
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 5px;
+    padding: 0px 5px;
+    border-radius: 12px;
+}
+
+#workspaces button {
+    color: rgba(255, 255, 255, 0.35);
+    background-color: transparent;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+}
+
+#workspaces button.urgent {
+    color: #cfcfcf;
+}
+
+#workspaces button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #000000;
+    border-radius: 8px;
+}
+
+/* Clock */
+#clock {
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Critical battery */
+#battery.critical:not(.charging) {
+    background-color: #ffffff;
+    color: #000000;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Hardware group container */
+#group-hardware {
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 5px;
+    padding: 0px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Media player */
+#mpris {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #e6e6e6;
+    margin: 5px;
+    padding: 0 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Hardware modules */
+#clock,
+#cpu,
+#memory,
+#backlight,
+#network,
+#pulseaudio,
+#battery {
+    padding: 0 10px;
+    margin: 1px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #e6e6e6;
+}
+
+/* Battery warning/critical in grayscale */
+#battery.warning {
+    color: #cfcfcf;
+}
+
+#battery.critical {
+    color: #ffffff;
+}
+
+/* Window title */
+#window {
+    background: transparent;
+    border: none;
+}
