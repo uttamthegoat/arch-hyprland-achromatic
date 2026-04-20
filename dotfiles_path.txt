@@ -2,5 +2,7 @@
 .config/hypr
 .config/fish
 .config/kitty
+.config/qt5ct
+.config/qt6ct
 .config/waybar
 .config/wlogout
