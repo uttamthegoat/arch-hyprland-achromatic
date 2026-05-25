@@ -4,5 +4,6 @@
 .config/kitty
 .config/qt5ct
 .config/qt6ct
+.config/tofi
 .config/waybar
 .config/wlogout
