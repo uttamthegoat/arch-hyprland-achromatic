@@ -19,6 +19,13 @@ return {
         local enabled_filetypes = {
           -- lua = true,
           -- python = true,
+          lua = true,
+          javascript = true,
+          typescript = true,
+          html = true,
+          css = true,
+          json = true,
+          apex = true,
         }
         if enabled_filetypes[vim.bo[bufnr].filetype] then
           return { timeout_ms = 500 }
@@ -37,6 +44,17 @@ return {
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },
+        lua = { 'stylua' },
+
+        javascript = { 'prettier' },
+        typescript = { 'prettier' },
+
+        html = { 'prettier' },
+        css = { 'prettier' },
+
+        json = { 'prettier' },
+
+        apex = { 'prettier' },
       },
     },
   }

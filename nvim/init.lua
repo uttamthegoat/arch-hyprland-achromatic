@@ -31,5 +31,6 @@ require('lazy').setup({
     require 'plugins.indent-blankline',
     require 'plugins.gitsigns',
     require 'plugins.misc',
-    require 'plugins.comment'
+    require 'plugins.comment',
+    require 'plugins.ai-autocompletion'
 })
