@@ -1,2 +1,3 @@
 Wallpapers
 .config/nvim
+.config/opencode

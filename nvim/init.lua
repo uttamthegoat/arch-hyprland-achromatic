@@ -2,6 +2,7 @@
 require 'core.keymaps'
 require 'core.options'
 require 'core.snippets'
+require 'core.config'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -32,5 +33,6 @@ require('lazy').setup({
     require 'plugins.gitsigns',
     require 'plugins.misc',
     require 'plugins.comment',
-    require 'plugins.ai-autocompletion'
+    require 'plugins.ai-autocompletion',
+    require 'plugins.sf'
 })

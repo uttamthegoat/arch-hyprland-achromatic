@@ -194,6 +194,16 @@ return {
 
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
+      vim.lsp.config('apex_ls', {
+      cmd = { 'java', '-jar', vim.fn.expand('~/Code/salesforce/apex-ext/extension/dist/apex-jorje-lsp.jar') },
+      apex_enable_semantic_errors = true,
+      apex_enable_completion_statistics = false,
+      filetypes = { 'apex' },
+      root_markers = { 'sfdx-project.json' },
+    })
+
+    vim.lsp.enable('apex_ls')
+
       for name, server in pairs(servers) do
         vim.lsp.config(name, server)
         vim.lsp.enable(name)

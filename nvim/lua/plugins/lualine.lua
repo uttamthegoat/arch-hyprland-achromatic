@@ -52,7 +52,10 @@ return {
       sections = {
         lualine_a = { mode },
         lualine_b = { 'branch' },
-        lualine_c = { filename },
+        lualine_c = { 'filename', {
+          "require'sf'.get_target_org()"
+        } },
+        lualine_x = { 'encoding', 'filetype' },
         lualine_x = { diagnostics, diff, { 'encoding', cond = hide_in_width }, { 'filetype', cond = hide_in_width } },
         lualine_y = { 'location' },
         lualine_z = { 'progress' },
