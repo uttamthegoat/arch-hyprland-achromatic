@@ -7,6 +7,32 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-tree/nvim-web-devicons",
     },
+
+    opts = {
+      filesystem = {
+        use_libuv_file_watcher = true,
+
+        filtered_items = {
+          visible = true,
+        },
+      },
+
+      default_component_configs = {
+        git_status = {
+          symbols = {
+            added     = "✚",
+            modified  = "",
+            deleted   = "✖",
+            renamed   = "󰁕",
+            untracked = "",
+            ignored   = "",
+            unstaged  = "󰄱",
+            staged    = "",
+            conflict  = "",
+          },
+        },
+      },
+    }
   },
   {
     "antosha417/nvim-lsp-file-operations",
