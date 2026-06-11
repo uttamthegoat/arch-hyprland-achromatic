@@ -1,0 +1,33 @@
+{
+  "providers": {
+    "deepseek-local": {
+      "api": "openai-completions",
+      "baseUrl": "http://localhost:8000/v1",
+      "apiKey": "sk-dummy-token-for-proxy",
+      "models": [
+        {
+          "id": "deepseek-v3",
+          "name": "DeepSeek V3",
+          "contextWindow": 128000
+        },
+        {
+          "id": "deepseek-r1",
+          "name": "DeepSeek R1",
+          "contextWindow": 128000,
+          "reasoning": true,
+          "thinkingFormat": "deepseek"
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "name": "DeepSeek V4 Flash",
+          "contextWindow": 128000
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek V4 Pro",
+          "contextWindow": 128000
+        }
+      ]
+    }
+  }
+}

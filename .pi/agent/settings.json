@@ -1,0 +1,5 @@
+{
+  "defaultModel": "deepseek-v4-flash",
+  "lastChangelogVersion": "0.79.1",
+  "defaultProvider": "deepseek-local"
+}
