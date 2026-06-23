@@ -1,6 +1,7 @@
 {
-  "defaultModel": "z-ai/glm-5.1",
-  "lastChangelogVersion": "0.79.1",
+  "defaultModel": "moonshotai/kimi-k2.6",
+  "lastChangelogVersion": "0.79.10",
   "defaultProvider": "nvidia",
-  "defaultThinkingLevel": "medium"
+  "defaultThinkingLevel": "medium",
+  "theme": "dark"
 }

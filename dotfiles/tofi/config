@@ -31,7 +31,7 @@ font-size = 11
 
 # --- Behavior ---
 hint-font = false
-num-results = 6
+num-results = 10
 result-spacing = 12
 prompt-text = "Bhag BSDK: "
 
