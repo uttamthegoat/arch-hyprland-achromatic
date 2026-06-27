@@ -37,7 +37,7 @@
         // Optional: The line above makes the logo open a menu if you have 'rofi' installed
     },
     
-	"hyprland/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "active-only": false,
